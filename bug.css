@@ -1,0 +1,7 @@
+The following CSS code snippet uses an invalid property `font-size-adjust`.  This property, while defined in some older specifications, is largely unsupported and can cause unexpected rendering behavior across different browsers.
+
+```css
+div {
+  font-size-adjust: 0.5;
+}
+```
